@@ -25,6 +25,6 @@ public class ServicePurchaseImpl implements ServicePurchase {
 
     @PreDestroy
     public void deStroy() {
-        System.out.println("Instance dead");
+        System.out.println("Instance dead!");
     }
 }
